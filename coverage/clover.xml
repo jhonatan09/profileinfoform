@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1776819819860" clover="3.2.0">
-  <project timestamp="1776819819860" name="All files">
+<coverage generated="1776823073386" clover="3.2.0">
+  <project timestamp="1776823073386" name="All files">
     <metrics statements="146" coveredstatements="141" conditionals="36" coveredconditionals="35" methods="40" coveredmethods="34" elements="222" coveredelements="210" complexity="0" loc="146" ncloc="146" packages="8" files="14" classes="14"/>
     <package name="components.form">
       <metrics statements="23" coveredstatements="23" conditionals="14" coveredconditionals="14" methods="8" coveredmethods="8"/>
@@ -47,8 +47,8 @@
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="address.schema.ts" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\modules\form\schemas\address.schema.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
       <file name="personal.schema.ts" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\modules\form\schemas\personal.schema.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
