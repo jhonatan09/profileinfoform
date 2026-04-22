@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1776819819860" clover="3.2.0">
+  <project timestamp="1776819819860" name="All files">
+    <metrics statements="146" coveredstatements="141" conditionals="36" coveredconditionals="35" methods="40" coveredmethods="34" elements="222" coveredelements="210" complexity="0" loc="146" ncloc="146" packages="8" files="14" classes="14"/>
+    <package name="components.form">
+      <metrics statements="23" coveredstatements="23" conditionals="14" coveredconditionals="14" methods="8" coveredmethods="8"/>
+      <file name="FormInput.tsx" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\components\form\FormInput.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="313" type="stmt"/>
+        <line num="11" count="313" type="stmt"/>
+      </file>
+      <file name="FormMaskedInput.tsx" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\components\form\FormMaskedInput.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="21" count="90" type="stmt"/>
+        <line num="23" count="90" type="stmt"/>
+        <line num="29" count="137" type="stmt"/>
+        <line num="33" count="65" type="stmt"/>
+      </file>
+      <file name="FormProvider.tsx" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\components\form\FormProvider.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="63" type="stmt"/>
+      </file>
+      <file name="FormSelect.tsx" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\components\form\FormSelect.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="26" count="10" type="stmt"/>
+      </file>
+      <file name="useFormField.ts" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\components\form\useFormField.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="7" count="318" type="stmt"/>
+        <line num="9" count="318" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.form.schemas">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="address.schema.ts" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\modules\form\schemas\address.schema.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="personal.schema.ts" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\modules\form\schemas\personal.schema.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="professional.schema.ts" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\modules\form\schemas\professional.schema.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.form.services">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="cepService.ts" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\modules\form\services\cepService.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.form.steps.AddressStep">
+      <metrics statements="46" coveredstatements="45" conditionals="12" coveredconditionals="11" methods="5" coveredmethods="4"/>
+      <file name="index.tsx" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\modules\form\steps\AddressStep\index.tsx">
+        <metrics statements="46" coveredstatements="45" conditionals="12" coveredconditionals="11" methods="5" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="48" type="stmt"/>
+        <line num="16" count="48" type="stmt"/>
+        <line num="17" count="48" type="stmt"/>
+        <line num="18" count="48" type="stmt"/>
+        <line num="19" count="48" type="stmt"/>
+        <line num="21" count="48" type="stmt"/>
+        <line num="27" count="48" type="stmt"/>
+        <line num="28" count="48" type="stmt"/>
+        <line num="30" count="48" type="stmt"/>
+        <line num="31" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="27" type="stmt"/>
+        <line num="34" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="59" count="48" type="stmt"/>
+        <line num="60" count="33" type="stmt"/>
+        <line num="63" count="48" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="67" count="48" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="72" count="48" type="cond" truecount="2" falsecount="0"/>
+        <line num="74" count="48" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.form.steps.PersonalStep">
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.tsx" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\modules\form\steps\PersonalStep\index.tsx">
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.form.steps.ProfessionalStep">
+      <metrics statements="29" coveredstatements="27" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="5"/>
+      <file name="index.tsx" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\modules\form\steps\ProfessionalStep\index.tsx">
+        <metrics statements="29" coveredstatements="27" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="39" count="7" type="stmt"/>
+        <line num="41" count="7" type="stmt"/>
+        <line num="46" count="7" type="stmt"/>
+        <line num="48" count="7" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="57" count="7" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="62" count="7" type="stmt"/>
+        <line num="81" count="7" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.form.steps.SummaryStep">
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <file name="index.tsx" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\modules\form\steps\SummaryStep\index.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="90" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="modules.form.store">
+      <metrics statements="8" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="8"/>
+      <file name="formStore.ts" path="C:\Users\Main\Desktop\Teste verity\multi-step-form\src\modules\form\store\formStore.ts">
+        <metrics statements="8" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="8"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

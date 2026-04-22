@@ -94,6 +94,7 @@ expect(getAddressByCep).toHaveBeenCalledWith('12345678')
 ## 🚀 Como rodar
 
 npm install
+
 npm run dev
 
 Testes:
