@@ -1,4 +1,4 @@
-# 🚀  Formuláriio de cadastro (React + TypeScript)
+# 🚀  Formulário de cadastro (React + TypeScript)
 
 > Um sistema de formulário multi-etapas inspirado em fluxos reais de fintechs, CRMs e plataformas de cadastro avançadas, com foco em UX, escalabilidade e arquitetura frontend moderna.
 
