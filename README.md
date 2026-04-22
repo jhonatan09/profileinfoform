@@ -1,74 +1,111 @@
-# React + TypeScript + Vite
+# 🚀 Form Wizard – Multi-Step Form (React + TypeScript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Um sistema de formulário multi-etapas inspirado em fluxos reais de fintechs, CRMs e plataformas de cadastro avançadas, com foco em UX, escalabilidade e arquitetura frontend moderna.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 👋 Sobre o projeto
 
-## React Compiler
+Este projeto simula um fluxo completo de onboarding de usuário em etapas, com validação, persistência de dados e integração com API externa de CEP.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O foco não é só “fazer funcionar”, mas sim demonstrar como estruturar um frontend escalável e pronto para produção.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🎯 O que este projeto demonstra na prática
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+✔ Arquitetura escalável de formulários complexos  
+✔ Gerenciamento de estado global sem overengineering (Zustand)  
+✔ Componentização avançada de inputs reutilizáveis  
+✔ Integração com API externa (ViaCEP) com UX otimizada  
+✔ Testes automatizados cobrindo fluxo real de usuário  
+✔ Boas práticas de React + TypeScript em produção  
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ⚙️ Stack utilizada
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React 18
+- TypeScript
+- Vite
+- React Hook Form
+- Zod
+- Zustand
+- IMask
+- Jest + React Testing Library
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# profileinfoform
+## 🧭 Fluxo do sistema
+
+Dados Pessoais → Endereço (CEP auto-complete) → Dados Profissionais → Finalização
+
+---
+
+## 📍 Auto-preenchimento de CEP
+
+Ao digitar um CEP válido:
+
+- Consulta ViaCEP automaticamente
+- Preenche endereço, cidade, bairro e estado
+- Loading state durante busca
+- Tratamento de erro de CEP inválido
+
+API:
+https://viacep.com.br/ws/{cep}/json/
+
+---
+
+## 🧱 Arquitetura
+
+src/
+ ├── components/
+ │   └── form
+ ├── modules/
+ │   └── form/
+ │       ├── steps/
+ │       ├── store/
+ │       ├── services/
+ │       └── types
+
+---
+
+## 🧠 Decisões técnicas
+
+- React Hook Form para performance
+- Zustand para estado global simples
+- Componentização de inputs reutilizáveis
+- IMask para UX melhorada
+
+---
+
+## 🧪 Testes
+
+- Fluxo completo do usuário
+- Mock de API CEP
+- Validação de inputs
+- Interações reais
+
+Exemplo:
+expect(getAddressByCep).toHaveBeenCalledWith('12345678')
+
+---
+
+## 🚀 Como rodar
+
+npm install
+npm run dev
+
+Testes:
+npm run test
+
+---
+
+## 💼 Para recrutadores
+
+Projeto criado para demonstrar domínio em:
+
+- React moderno
+- Arquitetura frontend escalável
+- UX em formulários complexos
+- Testes automatizados
